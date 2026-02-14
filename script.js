@@ -88,3 +88,4 @@ document.getElementById("textoPergamino").innerHTML=
 "<span class='contador'>"+dias+" días juntos 💖</span>";
 }
 
+
