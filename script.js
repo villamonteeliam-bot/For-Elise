@@ -79,7 +79,7 @@ document.getElementById("fondoPergamino").style.display="none";
 }
 
 function iniciarContador(){
-const fechaInicio=new Date("2024-02-14");
+const fechaInicio=new Date("2025-07-02");
 const hoy=new Date();
 const diferencia=hoy-fechaInicio;
 const dias=Math.floor(diferencia/(1000*60*60*24));
@@ -87,3 +87,4 @@ const dias=Math.floor(diferencia/(1000*60*60*24));
 document.getElementById("textoPergamino").innerHTML=
 "<span class='contador'>"+dias+" días juntos 💖</span>";
 }
+
